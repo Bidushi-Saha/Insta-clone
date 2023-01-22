@@ -1,0 +1,101 @@
+body {
+    background-color: aliceblue;
+  }
+  
+  header {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+  
+  }
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+  .logo {
+    margin: 20px;
+    float: left;
+  }
+  
+  .camera {
+    float: right;
+    margin: 30px;
+    margin-left: auto;
+  }
+  
+  .like,
+  .send,
+  .comment {
+    width: 30px;
+    height: 30px;
+  }
+  
+  img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .card {
+    margin: 1rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray;
+  }
+  
+  .img {
+    height: 300px;
+  }
+  
+  .head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .text-light {
+    opacity: 0.5;
+    font-weight: 600;
+  }
+  
+  .options {
+    font-size: larger;
+    font-weight: 700;
+  }
+  
+  .head>div {
+    margin: 10px;
+  }
+  
+  .icons {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .icons>div {
+    margin: 10px;
+  }
+  
+  .likes {
+    font-size: medium;
+    font-weight: 500;
+    opacity: 0.7;
+    margin: 10px;
+  }
+  
+  .icons>.date {
+    margin-left: auto;
+    font-weight: 700;
+      opacity: 0.5;
+  }
+  
+  .description {
+    margin: 10px;
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width:450px){
+    .card {
+      width: 556px;
+    }
+  }

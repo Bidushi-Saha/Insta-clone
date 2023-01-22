@@ -1,0 +1,43 @@
+main {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.image {
+    height: 80%;
+    width: 50%;
+}
+
+
+.imageFolder {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+}
+
+.btn{
+    font-size: larger;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid green;
+    color: green;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.btn:hover {
+    background-color: green;
+    color: burlywood;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: xxx-large;
+    color: green;
+    font-weight: 400;
+}
